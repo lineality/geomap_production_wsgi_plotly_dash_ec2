@@ -39,7 +39,7 @@ Press CTRL+C to quit (terminal server)
 
 # import libraries
 import dash
-from dash import dcc, html
+from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 import plotly.express as px  # (version 4.7.0 or higher)
 import os
